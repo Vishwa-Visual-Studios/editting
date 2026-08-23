@@ -1,7 +1,9 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <!-- Google Site Verification -->
   <meta name="google-site-verification" content="" />
   <meta name="google-site-verification" content="" />
@@ -25,66 +27,123 @@
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph / Social Sharing -->
-  <meta property="og:title" content="Vishwa Visual Studio | Digital Marketing & Video Production">
+  <meta
+    property="og:title"
+    content="Vishwa Visual Studio | Digital Marketing & Video Production"
+  >
+
   <meta
     property="og:description"
     content="Creative digital marketing, video editing, video shooting and content production services by Vishwa Visual Studio."
   >
+
   <meta property="og:type" content="website">
 
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
   <!-- ================= HEADER ================= -->
+
   <header>
+
     <div class="logo">
+
       <a href="#home">
+
         <img
           src="vishwa-visual-studio.png"
           alt="Vishwa Visual Studio"
         >
+
       </a>
+
     </div>
 
+
     <nav>
+
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#services">Services</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
       </ul>
+
     </nav>
+
   </header>
 
 
+
   <!-- ================= HERO ================= -->
+
   <section id="home" class="hero">
 
     <div class="hero-content">
 
-      <p class="hero-subtitle">VISHWA VISUAL STUDIO</p>
+      <p class="hero-subtitle">
+        VISHWA VISUAL STUDIO
+      </p>
+
 
       <h1>
+
         Turn Your Vision Into
-        <span>Visual Impact</span>
+
+        <span>
+          Visual Impact
+        </span>
+
       </h1>
 
+
       <p>
+
         We help businesses and creators grow with powerful digital
         marketing, professional video editing, and creative video
         production.
+
       </p>
 
+
       <div class="hero-buttons">
-        <a href="#services" class="cta-btn">
-          Explore Our Services
+
+        <!-- OPEN BOOKING MODAL -->
+
+        <a
+          href="javascript:void(0)"
+          class="cta-btn"
+          onclick="openModal()"
+        >
+          Start Your Project
         </a>
 
-        <a href="#contact" class="secondary-btn">
+
+        <a
+          href="#contact"
+          class="secondary-btn"
+        >
           Get in Touch
         </a>
+
       </div>
 
     </div>
@@ -92,205 +151,223 @@
   </section>
 
 
+
   <!-- ================= ABOUT ================= -->
-  <section id="about" class="about">
 
-    <div class="about-content">
+  <!-- You can add About section here later -->
 
-      <p class="section-subtitle">WHO WE ARE</p>
-
-      <h2>
-        Creative Ideas.
-        <span>Powerful Visuals.</span>
-      </h2>
-
-      <p>
-        Vishwa Visual Studio is a creative studio focused on helping
-        businesses, brands, and creators build a strong digital presence.
-      </p>
-
-      <p>
-        From social media marketing and engaging content to professional
-        video editing and video production, we bring your ideas to life
-        through visuals that connect with your audience.
-      </p>
-
-    </div>
-
-  </section>
 
 
   <!-- ================= SERVICES ================= -->
-  <section id="services" class="services">
 
-    <p class="section-subtitle">WHAT WE DO</p>
+  <section
+    id="services"
+    class="services"
+  >
 
-    <h2>Our Services</h2>
+    <p class="section-subtitle">
+      WHAT WE DO
+    </p>
+
+
+    <h2>
+      Our Services
+    </h2>
+
 
     <div class="services-container">
 
-      <!-- Digital Marketing -->
+
+      <!-- ================= DIGITAL MARKETING ================= -->
+
       <div class="service-card">
 
         <div class="service-icon">
           📱
         </div>
 
-        <h3>Digital Marketing</h3>
+
+        <h3>
+          Digital Marketing
+        </h3>
+
 
         <p>
+
           Grow your brand online with creative social media strategies,
           engaging content, audience targeting, and digital campaigns.
+
         </p>
 
-        <a href="#contact" class="service-link">
+
+        <a
+          href="javascript:void(0)"
+          class="service-link"
+          onclick="openModal()"
+        >
           Know More →
         </a>
 
       </div>
 
 
-      <!-- Video Editing -->
+
+      <!-- ================= VIDEO EDITING ================= -->
+
       <div class="service-card">
 
         <div class="service-icon">
           🎬
         </div>
 
-        <h3>Video Editing</h3>
+
+        <h3>
+          Video Editing
+        </h3>
+
 
         <p>
+
           Transform your raw footage into engaging and professional
           videos for social media, advertisements, YouTube, reels,
           promotions, and more.
+
         </p>
 
-        <a href="#contact" class="service-link">
+
+        <a
+          href="javascript:void(0)"
+          class="service-link"
+          onclick="openModal()"
+        >
           Know More →
         </a>
 
       </div>
 
 
-      <!-- Video Shooting -->
+
+      <!-- ================= VIDEO SHOOTING ================= -->
+
       <div class="service-card">
 
         <div class="service-icon">
           📹
         </div>
 
-        <h3>Video Shooting</h3>
+
+        <h3>
+          Video Shooting
+        </h3>
+
 
         <p>
+
           Capture high-quality visuals with professional video shooting,
           creative direction, product videos, promotional content,
           events, and brand shoots.
+
         </p>
 
-        <a href="#contact" class="service-link">
+
+        <a
+          href="javascript:void(0)"
+          class="service-link"
+          onclick="openModal()"
+        >
           Know More →
         </a>
 
       </div>
 
 
-      <!-- Content Creation -->
+
+      <!-- ================= CONTENT CREATION ================= -->
+
       <div class="service-card">
 
         <div class="service-icon">
           ✨
         </div>
 
-        <h3>Content Creation</h3>
+
+        <h3>
+          Content Creation
+        </h3>
+
 
         <p>
+
           Create attention-grabbing content designed to strengthen your
           brand identity and engage your audience across digital
           platforms.
+
         </p>
 
-        <a href="#contact" class="service-link">
+
+        <a
+          href="javascript:void(0)"
+          class="service-link"
+          onclick="openModal()"
+        >
           Know More →
         </a>
 
       </div>
 
+
     </div>
 
   </section>
+
 
 
   <!-- ================= WHY US ================= -->
-  <section class="why-us">
 
-    <p class="section-subtitle">WHY VISHWA VISUAL STUDIO</p>
+  <!-- You can add Why Choose Us section here later -->
 
-    <h2>Why Choose Us?</h2>
-
-    <div class="why-container">
-
-      <div class="why-card">
-        <h3>Creative Approach</h3>
-        <p>
-          Fresh ideas and creative concepts tailored to your brand.
-        </p>
-      </div>
-
-      <div class="why-card">
-        <h3>Quality Content</h3>
-        <p>
-          Professional visuals designed to make your brand stand out.
-        </p>
-      </div>
-
-      <div class="why-card">
-        <h3>Brand Focused</h3>
-        <p>
-          Every project is created with your brand and audience in mind.
-        </p>
-      </div>
-
-      <div class="why-card">
-        <h3>Results Driven</h3>
-        <p>
-          We focus on creating content that attracts, engages, and converts.
-        </p>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- ================= CALL TO ACTION ================= -->
-  <section class="cta-section">
-
-    <h2>Ready to Grow Your Brand?</h2>
-
-    <p>
-      Let's create something impactful together.
-    </p>
-
-    <a href="#contact" class="cta-btn">
-      Start a Project
-    </a>
-
-  </section>
 
 
   <!-- ================= CONTACT ================= -->
-  <section id="contact" class="contact">
 
-    <p class="section-subtitle">GET IN TOUCH</p>
+  <section
+    id="contact"
+    class="contact"
+  >
 
-    <h2>Let's Work Together</h2>
-
-    <p>
-      Have a project, business, or creative idea in mind?
-      Get in touch with Vishwa Visual Studio.
+    <p class="section-subtitle">
+      GET IN TOUCH
     </p>
 
+
+    <h2>
+      Let's Work Together
+    </h2>
+
+
+    <p>
+
+      Have a project, business, or creative idea in mind?
+      Get in touch with Vishwa Visual Studio.
+
+    </p>
+
+
     <div class="contact-buttons">
+
+
+      <!-- BOOKING MODAL BUTTON -->
+
+      <a
+        href="javascript:void(0)"
+        class="cta-btn"
+        onclick="openModal()"
+      >
+        Start a Project
+      </a>
+
+
+      <!-- WHATSAPP -->
 
       <a
         href="https://wa.me/918639479217"
@@ -301,12 +378,165 @@
         Chat on WhatsApp
       </a>
 
+
     </div>
 
   </section>
 
 
+
+  <!-- ================================================= -->
+  <!-- ================= BOOKING MODAL ================= -->
+  <!-- ================================================= -->
+
+  <div
+    class="modal"
+    id="bookingModal"
+  >
+
+    <div class="modal-content">
+
+
+      <!-- CLOSE BUTTON -->
+
+      <span
+        class="close-btn"
+        onclick="closeModal()"
+        aria-label="Close"
+      >
+        &times;
+      </span>
+
+
+      <h2>
+        Start Your Project
+      </h2>
+
+
+      <p>
+        Tell us about your project and we'll get back to you.
+      </p>
+
+
+      <form id="bookingForm">
+
+
+        <!-- NAME -->
+
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        >
+
+
+        <!-- EMAIL -->
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email Address"
+          required
+        >
+
+
+        <!-- PHONE -->
+
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Phone / WhatsApp Number"
+          required
+        >
+
+
+        <!-- SERVICE -->
+
+        <select
+          id="service"
+          name="service"
+          required
+        >
+
+          <option
+            value=""
+            disabled
+            selected
+          >
+            Select a Service
+          </option>
+
+
+          <option value="Digital Marketing">
+            Digital Marketing
+          </option>
+
+
+          <option value="Video Editing">
+            Video Editing
+          </option>
+
+
+          <option value="Video Shooting">
+            Video Shooting
+          </option>
+
+
+          <option value="Content Creation">
+            Content Creation
+          </option>
+
+
+          <option value="Other">
+            Other
+          </option>
+
+        </select>
+
+
+        <!-- PROJECT DETAILS -->
+
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Tell us about your project..."
+          rows="4"
+          required
+        ></textarea>
+
+
+        <!-- PREFERRED DATE -->
+
+        <input
+          type="date"
+          id="date"
+          name="date"
+        >
+
+
+        <!-- SUBMIT -->
+
+        <button
+          type="submit"
+        >
+          Submit Enquiry
+        </button>
+
+
+      </form>
+
+    </div>
+
+  </div>
+
+
+
   <!-- ================= FOOTER ================= -->
+
   <footer>
 
     <p>
@@ -316,8 +546,13 @@
   </footer>
 
 
+
+  <!-- ================= JAVASCRIPT ================= -->
+
   <script src="script.js"></script>
 
+
 </body>
+
 </html>
 ```
