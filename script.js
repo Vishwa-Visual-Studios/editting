@@ -1,4 +1,4 @@
-```javascript
+
 function openModal() {
   const modal = document.getElementById("bookingModal");
 
@@ -23,4 +23,3 @@ window.addEventListener("click", function (event) {
   }
 
 });
-```
