@@ -1,47 +1,26 @@
-// Smooth scrolling for anchor links
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//     anchor.addEventListener('click', function (e) {
-//       e.preventDefault();
-//       document.querySelector(this.getAttribute('href')).scrollIntoView({
-//         behavior: 'smooth'
-//       });
-//     });
-//   });
-  
-  // Open Modal on Home Visit Click
-  // document.getElementById('bookingModal').style.display = 'none';
+```javascript
+function openModal() {
+  const modal = document.getElementById("bookingModal");
 
-  function closeModal() {
-    document.getElementById('bookingModal').style.display = 'none';
-  }
+  modal.classList.add("show");
+}
 
-  function openModal() {
-    document.getElementById('bookingModal').style.display = 'block';
-  }
-  
-  // Submit Form
-  document.getElementById('bookingForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-  
-    // Collect form data
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const address = document.getElementById('address').value;
-    const reason = document.getElementById('reason').value;
-    const datetime = document.getElementById('datetime').value;
-  
-    // WhatsApp Message
-    const message = `Booking Request:
-  Name: ${name}
-  Email: ${email}
-  Address: ${address}
-  Reason: ${reason}
-  Date & Time: ${datetime}`;
-  
-    const whatsappURL = `https://wa.me/916302880507?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, '_blank');
-  
-    alert("Booking submitted! You'll be contacted shortly.");
+
+function closeModal() {
+  const modal = document.getElementById("bookingModal");
+
+  modal.classList.remove("show");
+}
+
+
+// Close modal when clicking outside the modal content
+window.addEventListener("click", function (event) {
+
+  const modal = document.getElementById("bookingModal");
+
+  if (event.target === modal) {
     closeModal();
-  });
-  
+  }
+
+});
+```
